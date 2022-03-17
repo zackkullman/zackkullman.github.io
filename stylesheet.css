@@ -1,249 +1,199 @@
 /*Addition of Roboto Font-Family*/
 
 @font-face {
-    font-family: Roboto;
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+  font-family: Roboto;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 }
 
 /*Styling of Navbar*/
 
 .topnav {
-    background-color: #00365D;
-    overflow: auto;
-    margin: 0px;
-    object-fit: cover;
-    z-index: 2;
-    position: fixed;
-
+  background-color: #00365D;
+  overflow: auto;
+  justify-content: center;
+  object-fit: cover;
+  z-index: 2;
+  position: fixed;
+  margin-left: 15px;
 }
 
 /*Styling of Navbar Links*/
 
 .topnav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: Roboto;
-    font-weight: 100;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 100;
 }
 
 /*Styling of Hover in Navbar*/
 
 .topnav a:hover {
-    background-color: #56D890;
-    color: #00365D;
+  background-color: #3a6786;
+  color: #ffffff;
 }
 
 /*Styling Everything into Border-box*/
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*Styling of Background Video*/
 
 video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 /*Placement of Overlay Text*/
 
 .overlay {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Styling of Overlay Text*/
 
 .overlay h2 {
-    font-family: Roboto;
-    text-align: left;
-    color: white;
-    z-index: 1;
-    font-weight: 100;
+  font-family: Roboto;
+  text-align: left;
+  color: white;
+  z-index: 1;
+  font-weight: 100;
 }
 
 /* If the screen size is 875px wide or more, set the font-size of <h2> to 65px */
 @media screen and (min-width: 875px) {
-    .overlay h2 {
-      font-size: 65px;
-    }
+  .overlay h2 {
+    font-size: 65px;
   }
+}
 
 
 /* If the screen size is 874px wide or less, set the font-size of <h2> to 45px */
 @media screen and (max-width: 874px) {
-    .overlay h2 {
-      font-size: 45px;
-    }
+  .overlay h2 {
+    font-size: 45px;
   }
-  
-  /* If the screen size is 615px wide or less, set the font-size of <h2> to 30px */
-  @media screen and (max-width: 615px) {
-    .overlay h2 {
-      font-size: 30px;
-    }
+}
+
+/* If the screen size is 615px wide or less, set the font-size of <h2> to 30px */
+@media screen and (max-width: 615px) {
+  .overlay h2 {
+    font-size: 30px;
   }
+}
 
 /* Header Styling */
 
-.header h2 {
-  font-family: Roboto;
-  text-align: center;
-  padding-top: 20px;
-  color: white;
-  margin: auto;
-  align-items: center;
+.col-12 h2 {
+font-family: Roboto;
+text-align: center;
+padding-top: 20px;
+color: white;
+margin: auto;
+align-items: center;
 }
 
 .headerbackground {
-  height: 90px;
-  background-color: #56D890;
-  margin-left: -10px;
-  margin-right: -10px;
-  position: relative;
-  top: -35px;
-  vertical-align: auto;
-  align-items: center;
+height: 90px;
+background-color: #56D890;
+margin: 30px;
 }
 
-.headerbackground2 {
-  height: 90px;
-  background-color: #56D890;
-  margin-left: -10px;
-  margin-right: -10px;
-  vertical-align: auto;
-  align-items: center;
+
+/* If the screen size is 875px wide or more, set the font-size of <h2> to 40px */
+@media screen and (min-width: 875px) {
+.col-12 h2 {
+  font-size: 40px;
 }
- /* If the screen size is 875px wide or more, set the font-size of <h2> to 40px */
- @media screen and (min-width: 875px) {
-  .header h2 {
-    font-size: 40px;
-  }
 }
 
 
 /* If the screen size is 874px wide or less, set the font-size of <h2> to 32px */
 @media screen and (max-width: 874px) {
-  .header h2 {
-    font-size: 32px;
-  }
+.col-12 h2 {
+  font-size: 32px;
+}
 }
 
 /* If the screen size is 615px wide or less, set the font-size of <h2> to 24px */
 @media screen and (max-width: 615px) {
-  .header h2 {
-    font-size: 24px;
-    position: relative;
-    bottom: -6px;
-  }
+.col-12 h2 {
+  font-size: 24px;
+  position: relative;
+  bottom: -6px;
+}
 }
 
 
- 
+
 /*Subsection Styling*/
 
 /*Left Column Text Box Styling*/
 
 .col-6 h6 {
-  float: left;
-  width: 50%;
-  padding: 20px;
-  height: 300px;
-  font-family: Roboto;
-  padding-top: 0px;
-  font-weight: 100;
+padding: 20px;
+height: 300px;
+font-family: Roboto;
+font-weight: 100;
+margin-top: 15px;
+margin-bottom: 15px;
 }
 
-/*Right Column Text Box Styling*/
+/*Column Image Styling*/
 
-.flip h6 {
-  float: right;
-  width: 50%;
-  padding: 20px;
-  height: 300px;
-  font-family: Roboto;
-  padding-top: 0px;
-  font-weight: 100;
+.img-fluid {
+padding: 10%;
 }
 
-/*Left Column Image Styling*/
-
-.imgflip img {
-  float: left;
-  width: 45%;
-  padding: 20px;
-  padding-top: 40px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 450px;
-  min-width: 100px;
-  padding-bottom: 40px;
+/* If the screen size is 875px wide or more, set the font-size of <h6> to 32px */
+@media screen and (min-width: 1250px) {
+.col-6 h6 {
+  font-size: 34px;
 }
-
-/*Right Column Image Styling*/
-
-.col-6 img {
-  
-  width: 45%;
-  padding: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 450px;
-  min-width: 100px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-/*Cancels Styling of Rows After*/
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
- /* If the screen size is 875px wide or more, set the font-size of <h6> to 32px */
-@media screen and (min-width: 875px) {
-  .col-6 h6 {
-    font-size: 28px;
-  }
 }
 
 
-/* If the screen size is 874px wide or less, set the font-size of <h6> to 24px */
-@media screen and (max-width: 874px) {
-  .col-6 h6 {
-    font-size: 21px;
-  }
+/* If the screen size is 1250 wide or more, set the font-size of <h6> to 24px */
+@media screen and (max-width: 1249px) {
+.col-6 h6 {
+  font-size: 26px;
+}
 }
 
-/* If the screen size is 615px wide or less, set the font-size of <h6> to 18px */
-@media screen and (max-width: 615px) {
-  .col-6 h6 {
-    font-size: 16px;
-  }
+/* If the screen size is 815px wide or less, set the font-size of <h6> to 18px */
+@media screen and (max-width: 1000px) {
+.col-6 h6 {
+  font-size: 16px;
+}
+}
+
+/* Footer Styling */
+
+.footer h5 {
+font-family: Roboto;
+text-align: center;
+padding: 20px;
+color: #ffffff;
+justify-content: center;
+align-items: center;
+background-color: #00365D;
+margin-bottom: 0px;
 }
 
 
 
-
-
-
-
-
-  
 
