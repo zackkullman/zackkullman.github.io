@@ -101,14 +101,14 @@ video {
 .col-12 h2 {
 font-family: Roboto;
 text-align: center;
-padding-top: 20px;
+padding-top: 30px;
 color: white;
 margin: auto;
 align-items: center;
 }
 
 .headerbackground {
-height: 90px;
+height: 115px;
 background-color: #56D890;
 margin: 30px;
 }
@@ -125,14 +125,14 @@ margin: 30px;
 /* If the screen size is 874px wide or less, set the font-size of <h2> to 32px */
 @media screen and (max-width: 874px) {
 .col-12 h2 {
-  font-size: 32px;
+  font-size: 36px;
 }
 }
 
 /* If the screen size is 615px wide or less, set the font-size of <h2> to 24px */
 @media screen and (max-width: 615px) {
 .col-12 h2 {
-  font-size: 24px;
+  font-size: 32px;
   position: relative;
   bottom: -6px;
 }
@@ -149,14 +149,18 @@ padding: 20px;
 height: 300px;
 font-family: Roboto;
 font-weight: 100;
-margin-top: 15px;
-margin-bottom: 15px;
+margin-top: 35px;
+margin-bottom: 35px;
 }
 
 /*Column Image Styling*/
 
 .img-fluid {
-padding: 10%;
+padding: 0;
+width: 100%;
+height: auto;
+margin-top: 35px;
+margin-bottom: 35px;
 }
 
 /* If the screen size is 875px wide or more, set the font-size of <h6> to 32px */
