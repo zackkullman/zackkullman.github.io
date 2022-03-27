@@ -149,8 +149,8 @@ padding: 20px;
 height: 300px;
 font-family: Roboto;
 font-weight: 100;
-margin-top: 35px;
-margin-bottom: 35px;
+margin-top: 45px;
+margin-bottom: 45px;
 }
 
 /*Column Image Styling*/
@@ -159,8 +159,8 @@ margin-bottom: 35px;
 padding: 0;
 width: 100%;
 height: auto;
-margin-top: 35px;
-margin-bottom: 35px;
+margin-top: 45px;
+margin-bottom: 45px;
 }
 
 /* If the screen size is 875px wide or more, set the font-size of <h6> to 32px */
@@ -181,7 +181,7 @@ margin-bottom: 35px;
 /* If the screen size is 815px wide or less, set the font-size of <h6> to 18px */
 @media screen and (max-width: 1000px) {
 .col-6 h6 {
-  font-size: 16px;
+  font-size: 15px;
 }
 }
 
