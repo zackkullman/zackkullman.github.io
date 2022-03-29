@@ -1,7 +1,7 @@
 /*FIXED BACKGROUND IMAGE*/
 
 body {
-    background-image: url(images/Cover\ Image.jpg);
+    background-image: url(images/cover\ image.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
