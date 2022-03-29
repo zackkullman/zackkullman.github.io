@@ -1,3 +1,16 @@
+/*Addition of Fonts*/
+
+@font-face {
+  font-family: brother-1816;
+  src: url(https://use.typekit.net/nxd1fbk.css);
+}
+
+@font-face {
+  font-family: gravesend-sans;
+  src: url(https://use.typekit.net/nxd1fbk.css);
+}
+
+
 /*FIXED BACKGROUND IMAGE*/
 
 body {
