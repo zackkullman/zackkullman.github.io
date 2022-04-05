@@ -1,0 +1,569 @@
+/*FIXED BACKGROUND IMAGE*/
+
+body {
+    background-image: url(images/Cover\ Image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Styling of NAVBAR*/
+
+#topnav {
+    background-color: #000000;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    opacity: 90%;
+}
+
+/*Styling of NAVBAR LINKS*/
+
+#topnav a {
+    color: #f6f3e0;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Gravesend Sans;
+    font-weight: 200;
+    background-color: #000000;
+}
+
+/*Styling of NAVBAR HOVER*/
+
+#topnav a:hover {
+    background-color: #f6f3e0;
+    color: #000000;
+    font-weight: 500;
+    opacity: 90%;
+}
+
+/*Styling of COVER LOGO AND FADE IN*/
+
+.fade-in {
+  margin-top: 30px;
+  padding: 60px;
+  animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+/*Styling of CONTAINER FOR ALBUM*/
+
+#album {
+    background-image: url(images/white\ marble\ .jpg);
+    padding: 25px;
+}
+
+/*Styling of NEW ALBUM SECTION*/
+
+.col-6 h2 {
+    font-family: Gravesend Sans;
+    color: #3b1440;
+    text-align: center;
+    font-weight: 500;
+}
+
+#album h2 {
+  text-align: center;
+  color: #f6f3e0;
+  font-family: Gravesend Sans;
+  font-weight: 100;
+}
+
+#single h2 {
+  color: #3b1440;
+  margin-top: 20px;
+}
+
+/*Styling of NEW ALBUM LINK and TOUR LINK*/
+
+.col-6 a {
+    background-color: #000000;
+    color: #f6f3de;
+    text-decoration: none;
+    font-family: brother-1816;
+    text-align: center;
+    padding: 5px;
+}
+
+.col-6 a:hover {
+  color: #b73d38;
+  font-weight: 800;
+  opacity: 90%;
+}
+
+.col-12 a {
+    background-color: #000000;
+    color: #f6f3de;
+    text-decoration: none;
+    font-family: brother-1816;
+    text-align: center;
+    padding: 5px;
+}
+
+.col-12 a:hover {
+    color: #b73d38;
+    font-weight: 800;
+    opacity: 90%;
+}
+
+/*Styling of NEW ALBUM SECTION RESPONSIVE TEXT*/
+
+/* If the screen size is 1007px wide or more, set the font-size of <h2> to 58px (ALBUM LINK)*/
+@media screen and (min-width: 1007px) {
+    .col-6 h2 {
+      font-size: 58px;
+      margin-top: 25%;
+      margin-bottom: 25%;
+    }
+  }
+
+
+/* If the screen size is 1006px wide or less, set the font-size of <h2> to 42px (ALBUM LINK)*/
+@media screen and (max-width: 1006px) {
+    .col-6 h2 {
+      font-size: 42px;
+      margin-top: 15%;
+      margin-bottom: 15%;
+    }
+  }
+  
+  /* If the screen size is 800px wide or less, set the font-size of <h2> to 20px (ALBUM LINK)*/
+  @media screen and (max-width: 800px) {
+    .col-6 h2 {
+      font-size: 20px;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+  }
+
+  /*PAST ARTIST SECTION*/
+
+  #reversesections {
+        background-color: #3b1440;
+        padding: 25px;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+#Music {
+    background-color: #3b1440;
+    padding: 25px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .col-12 h2 {
+      text-align: center;
+      color: #f6f3de;
+      font-family: Gravesend Sans;
+      font-weight: 500;
+  }
+
+/*Styling of NEW RELEASE AUDIO PLAYER*/
+
+  iframe {
+      border-radius: 12px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+
+/*Styling of PAST ALBUM LINKS*/
+
+.carousel-item h4 {
+  background-color: #f6f3de;
+  color: #3b1440;
+  text-decoration: none;
+  font-family: Gravesend Sans;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.carousel-item a {
+  text-decoration: none;
+}
+
+.carousel-item h4:hover {
+color: #b73d38;
+font-weight: 800;
+opacity: 90%;
+}
+
+/*Styling of PAST ARTISTS PHOTO CAUROSEL CAPTIONS*/
+
+.carousel-item h5 {
+  color: #f6f3de;
+  font-family: Gravesend Sans;
+  text-align: center;
+}
+
+  /*Styling of NEW SINGLE SECTION AND TOUR LINK RESPONSIVE TEXT*/
+
+/* If the screen size is 1007px wide or more, set the font-size of <h2> to 36px (SINGLE/TOUR LINK) */
+@media screen and (min-width: 1007px) {
+    .col-12 h2 {
+      font-size: 36px;
+    }
+  }
+
+
+/* If the screen size is 1006px wide or less, set the font-size of <h2> to 24px (SINGLE/TOUR LINK) */
+@media screen and (max-width: 1006px) {
+    .col-12 h2 {
+      font-size: 24px;
+    }
+  }
+  
+  /* If the screen size is 800px wide or less, set the font-size of <h2> to 21px (SINGLE/TOUR LINK) */
+  @media screen and (max-width: 800px) {
+    .col-12 h2 {
+      font-size: 21px;
+    }
+  }
+
+  /*Styling of TOUR SECTION*/
+
+#Tour h3 {
+    color: #f6f3e0;
+    background-color: #3b1440;
+    padding: 20px;
+    font-family: Gravesend Sans;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#Tour {
+  background-image: url(images/white\ marble\ .jpg);
+  padding: 25px;
+  margin-top: 45px;
+}
+
+.col-6 ul {
+    list-style-type: none;
+    font-family: brother-1816;
+    text-align: center;
+}
+
+span {
+    font-family: Gravesend Sans;
+    font-weight: 500;
+    background-color: #b73d38;
+    color: #f6f3e0;
+    padding: 1px;
+}
+
+/*Styling of TOUR SECTION HEADER RESPONSIVE TEXT*/
+
+/* If the screen size is 1007px wide or more, set the font-size of <h3> to 58px (TOUR HEAD) */
+@media screen and (min-width: 1007px) {
+    #Tour h3 {
+      font-size: 58px;
+    }
+  }
+
+
+/* If the screen size is 1006px wide or less, set the font-size of <h3> to 42px (TOUR HEAD) */
+@media screen and (max-width: 1006px) {
+    #Tour h3 {
+      font-size: 42px;
+    }
+  }
+  
+  /* If the screen size is 800px wide or less, set the font-size of <h3> to 21px (TOUR HEAD) */
+  @media screen and (max-width: 800px) {
+    #Tour h3 {
+      font-size: 21px;
+    }
+  }
+
+/*Styling of TOUR SECTION LIST RESPONSIVE TEXT*/
+
+/* If the screen size is 1007px wide or more, set the font-size of <ul> to 28px (TOUR LIST) */
+@media screen and (min-width: 1007px) {
+    #Tour ul {
+      font-size: 21px;
+    }
+  }
+
+
+/* If the screen size is 1006px wide or less, set the font-size of <ul> to 21px (TOUR LIST) */
+@media screen and (max-width: 1006px) {
+    #Tour ul {
+      font-size: 18px;
+    }
+  }
+  
+  /* If the screen size is 800px wide or less, set the font-size of <ul> to 16px (TOUR LIST) */
+  @media screen and (max-width: 800px) {
+    #Tour ul {
+      font-size: 16px;
+    }
+  }
+
+/*Styling of PAST ARTISTS COLLABED WITH RESPONSIVE TEXT*/
+
+/* If the screen size is 1007px wide or more, set the font-size of <h3> to 52px (PAST) */
+@media screen and (min-width: 1007px) {
+    #artistsubsections h3 {
+      font-size: 52px;
+      margin-top: 25%;
+      margin-bottom: 25%;
+    }
+  }
+
+
+/* If the screen size is 1006px wide or less, set the font-size of <h3> to 38px (PAST) */
+@media screen and (max-width: 1006px) {
+    #artistsubsections h3 {
+      font-size: 38px;
+      margin-top: 25%;
+      margin-bottom: 25%;
+    }
+  }
+  
+  /* If the screen size is 800px wide or less, set the font-size of <h3> to 15px (PAST) */
+  @media screen and (max-width: 800px) {
+    #artistsubsections h3 {
+      font-size: 15px;
+      margin-top: 25%;
+      margin-bottom: 25%;
+    }
+  }
+
+  /*Styling of TEXT WITHIN THE ABOUT SECTION*/
+
+  #About p {
+      font-family: brother-1816;
+      text-align: left;
+      margin-top: 15px;
+      color: #3b1440;
+  }
+
+  
+#About h2 {
+    font-family: Gravesend Sans;
+    color: #f6f3de;
+    background-color: #3b1440;
+    text-align: center;
+    font-weight: 500;
+}
+
+#About {
+  background-image: url(images/white\ marble\ .jpg);
+  padding: 25px;
+  margin-top: 45px;
+}
+
+/*Styling of ABOUT SECTION RESPONSIVE TEXT*/
+
+  /* If the screen size is 1007px wide or more, set the font-size of <p> to 32px (ABOUT) */
+@media screen and (min-width: 1007px) {
+    #About p {
+      font-size: 32px;
+    }
+  }
+
+
+/* If the screen size is 1006px wide or less, set the font-size of <p> to 24px (ABOUT) */
+@media screen and (max-width: 1006px) {
+    #About p {
+      font-size: 24px;
+    }
+  }
+  
+  /* If the screen size is 800px wide or less, set the font-size of <p> to 15px (ABOUT) */
+  @media screen and (max-width: 800px) {
+    #About p {
+      font-size: 15px;
+    }
+  }
+  
+  /* If the screen size is 1007px wide or more, set the font-size of <h2> to 58px (ABOUT HEAD)*/
+@media screen and (min-width: 1007px) {
+    .col-12 h2 {
+      font-size: 58px;
+    }
+  }
+
+
+/* If the screen size is 1006px wide or less, set the font-size of <h2> to 42px (ABOUT HEAD)*/
+@media screen and (max-width: 1006px) {
+    .col-12 h2 {
+      font-size: 42px;
+    }
+  }
+  
+  /* If the screen size is 800px wide or less, set the font-size of <h2> to 20px (ABOUT HEAD)*/
+  @media screen and (max-width: 800px) {
+    .col-12 h2 {
+      font-size: 20px;
+    }
+  }
+
+/*Styling of PHOTO CAROUSELS*/
+
+.my-overlay::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.my-overlay {
+position: relative;
+}
+
+.carousel-item {
+  color: #f6f3e0;
+  text-align: center;
+}
+/*Styling of PAST ARTISTS SECTIONS*/
+
+#pastartists h4 {
+  font-family: Gravesend Sans;
+}
+
+#pastartists {
+  background-color: #3b1440;
+}
+
+#artistheader h2{
+  font-family: Gravesend Sans;
+  background-color: #b73d38;
+  color: #f6f3e0;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.col-md-8 a{
+    font-family: gravesend sans;
+    margin: 2px;
+    color: #3b1440;
+    text-decoration: none;
+    background-color: #f6f3e0;
+}
+
+.col-md-8 a:hover {
+  background-color: #f6f3e0;
+  color: #b73d38;
+  font-weight: 800;
+  opacity: 90%;
+}
+
+/*Styling of PAST ARTIST SUBSECTION RESPONSIVE TEXT*/
+
+/* If the screen size is 1007px wide or more, set the font-size of <h2> to 36px (PAST ARTIST HEAD) */
+@media screen and (min-width: 1007px) {
+  #artistheader h2 {
+    font-size: 36px;
+  }
+}
+
+
+/* If the screen size is 1006px wide or less, set the font-size of <h2> to 32px (PAST ARTIST HEAD) */
+@media screen and (max-width: 1006px) {
+  #artistheader h2 {
+    font-size: 32px;
+  }
+}
+
+/* If the screen size is 800px wide or less, set the font-size of <h2> to 21px (PAST ARTIST HEAD) */
+@media screen and (max-width: 800px) {
+  #artistheader h2 {
+    font-size: 21px;
+  }
+}
+
+/* If the screen size is 1007px wide or more, set the font-size of <h3> to 36px (PAST ARTIST LIST) */
+@media screen and (min-width: 1007px) {
+  #pastartists h3 {
+    font-size: 36px;
+  }
+}
+
+
+/* If the screen size is 1006px wide or less, set the font-size of <h3> to 32px (PAST ARTIST LIST) */
+@media screen and (max-width: 1006px) {
+  #pastartists h3 {
+    font-size: 32px;
+  }
+}
+
+/* If the screen size is 800px wide or less, set the font-size of <h3> to 21px (PAST ARTIST LIST) */
+@media screen and (max-width: 800px) {
+  #pastartists h3 {
+    font-size: 21px;
+  }
+}
+
+/*Styling of FOOTER SECTION*/
+
+#footer {
+  background-color: #000000;
+  margin-top: 75px;
+}
+
+#footer img {
+  background-color: #000000;
+  max-height: 45px;
+}
+
+
+#footer a:hover {
+  color: #b73d38;
+  font-weight: 800;
+  opacity: 90%;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #3b1440;
+  text-align: center;
+  background-color: #f6f3de;
+}
+
+#footer h6 {
+  font-family: Gravesend Sans;
+  color: #f6f3de;
+  text-align: center;
+}
+
+/*Styling of FOOTER RESPONSIVE TEXT*/
+
+/* If the screen size is 1007px wide or more, set the font-size of <h6> to 36px (FOOTER TEXT) */
+@media screen and (min-width: 1007px) {
+  #footer h6 {
+    font-size: 36px;
+    margin-top: 8px;
+  }
+}
+
+
+/* If the screen size is 1006px wide or less, set the font-size of <h6> to 21px (FOOTER TEXT) */
+@media screen and (max-width: 1006px) {
+  #footer h6 {
+    font-size: 21px;
+  }
+}
+
+/* If the screen size is 800px wide or less, set the font-size of <h6> to 16px (FOOTER TEXT) */
+@media screen and (max-width: 800px) {
+  #footer h6 {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+}
