@@ -45,7 +45,7 @@ body {
 .fade-in {
   margin-top: 15px;
   padding: 15px;
-  animation: fadeIn ease 3s;
+  animation: fadeIn ease 4s;
 }
 @keyframes fadeIn {
   0% {
