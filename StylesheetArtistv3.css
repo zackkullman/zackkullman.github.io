@@ -43,7 +43,7 @@ body {
 /*Styling of COVER LOGO AND FADE IN*/
 
 .fade-in {
-  margin-top: 15px;
+  margin-top: 25px;
   padding: 15px;
   animation: fadeIn ease 4s;
 }
