@@ -465,4 +465,22 @@
         font-size: 18px;
       }
     }
-  
+
+  /*FOOTER STYLING*/
+
+  #footer {
+    background-color: #363636;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+  }
+
+  #footer a {
+    color: aqua;
+  }
+
+  #footer a:hover {
+    color: rgb(0, 186, 186);
+  }
