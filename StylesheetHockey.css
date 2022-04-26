@@ -1,0 +1,455 @@
+/*FONT INSERT*/
+
+@font-face {
+    font-family: myFirstFont;
+    src: url();
+  }
+  
+  /*Styling of NAVBAR*/
+  
+  #topnav {
+      background-color: #166464;
+      z-index: 2;
+      position: fixed;
+      width: 100%;
+      text-align: center;
+      height: 40px;
+  }
+  
+  /*Styling of NAVBAR LINKS*/
+  
+  #topnav a {
+      color: #e2e2ff;
+      padding-top: 35px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 10px;
+      text-decoration: none;
+      font-family: Roboto;
+      font-weight: 100;
+      background-color: #166464;
+      transition: background-color 0.5s ease;
+      align-items: center;
+  }
+  
+  /*Styling of NAVBAR HOVER*/
+  
+  #topnav a:hover {
+      background-color: #9af1ff;
+      color: #363636;
+      font-weight: 800;
+      opacity: 90%;
+  }
+  
+  @media screen and (min-width: 1007px) {
+      .col-sm-12 a {
+          font-size: 21px;
+      }
+    }
+  
+  
+  
+  @media screen and (max-width: 1006px) {
+      .col-sm-12 a {
+          font-size: 18px;
+      }
+    }
+    
+  
+    @media screen and (max-width: 800px) {
+      .col-sm-12 a {
+          font-size: 16px;
+      }
+    }
+  
+  /*INTRO SECTION STYLING*/
+  
+  /*Styling of Background Video*/
+  
+  video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    
+    /*Placement of Overlay Text*/
+    
+    .overlay {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /*Styling of Overlay Text*/
+    
+    .overlay h1 {
+      font-family: Roboto Slab;
+      text-align: left;
+      color: aquamarine;
+      z-index: 1;
+      font-weight: 400;
+    }
+  
+    /*STYLING OF OVERLAY IMG*/
+  
+    .overlay img {
+        z-index: 1;
+        max-width: 400px;
+    }
+  
+    @media screen and (min-width: 1007px) {
+      .overlay img {
+          height: 400px;
+      }
+    }
+  
+  
+  
+  @media screen and (max-width: 1006px) {
+      .overlay img {
+          height: 250px;
+      }
+    }
+    
+  
+    @media screen and (max-width: 800px) {
+      .overlay img {
+          height: 150px;
+      }
+    }
+  
+    /*Section NUMBER TWO STYLING*/
+  
+    #section2 {
+        height: 280px;
+        margin-top: 50px;
+    }
+  
+    #section2 a {
+        text-align: center;
+  
+    } 
+  
+    /*POSITIONS STYLING*/
+  
+    #Positions {
+        padding: 5%;
+    }
+  
+    /*HISTORY PAGE STYLING*/
+  
+    /*HISTORY PAGE HEADER STYLING*/
+  
+    #historyheader {
+        background-color: #9af1ff;
+    }
+  
+  
+  
+    #historyheader h1 {
+        margin-top: 15px;
+        font-family: roboto slab;
+        text-align: center;
+    }
+  
+    /*HISTORY PAGE HEADER RESPONSIVE Text*/
+  
+    @media screen and (min-width: 1007px) {
+      #historyheader {
+          margin-top: 30px;
+          padding-top: 100px;
+          padding-bottom: 100px;
+      }
+    }
+  
+  
+  
+  @media screen and (max-width: 1006px) {
+      #historyheader {
+          margin-top: 30px;
+          padding-top: 125px;
+          padding-bottom: 125px;
+      }
+    }
+    
+  
+    @media screen and (max-width: 800px) {
+      #historyheader {
+          margin-top: 40px;
+          padding-top: 45px;
+          padding-bottom: 55px;
+      }
+    }
+  
+    /*Styling of HISTORICAL EVENTS SUBSECTIONS*/
+  
+    #events{
+      font-family: roboto;
+      font-weight: 200;
+    }
+    #events h3 {
+        text-align: center;
+    }
+  
+    #events img{
+      padding: 25%;
+    }
+  
+    #events a {
+      box-shadow: inset 0 0 0 0 #166464;
+      color: #54b3d6;
+      padding: 0 .25rem;
+      margin: 0 -.25rem;
+      transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    }
+    #events a:hover {
+      color: #fff;
+      box-shadow: inset 200px 0 0 0 #166464;;
+    }
+    
+    #events a {
+      color: #166464;
+      font-family: roboto slab;
+      font-size: 27px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+  
+    @media screen and (min-width: 1007px) {
+      #events  {
+        margin-top: -45px;
+        margin-bottom: -45px;
+      }
+    }
+  
+    @media screen and (max-width: 800px) {
+      #events h3 {
+          font-size: 22px;
+      }
+    }
+  
+    @media screen and (max-width: 800px) {
+      #events a {
+          font-size: 22px;
+      }
+    }
+  
+  /*Button Styling*/
+  
+    .thumbnail {
+      position: relative;
+      margin-bottom: 0;
+      border: 0;
+      border-color: transparent;
+      padding: 10%;
+    }
+  
+    .thumbnail img {
+      border-color: #363636;
+      border-width: 10px;
+      border-style: solid;
+  }
+  
+  
+  .caption {
+      position: absolute;
+      top: 40%;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      align-items: center;
+      opacity: 90%;
+  }
+  
+  .caption h5 {
+    background-color: rgb(118, 255, 255);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5%;
+    font-family: Roboto;
+    color: #363636;
+  }
+  
+  .caption a {
+    text-decoration: none;
+  }
+  
+  .thumbnail:hover {
+    padding: 8%;
+    font-weight: 800;
+    transition: .5s ease;
+  }
+  
+  /*EQUIPMENT SECTION STYLING*/
+  
+    #subsection{
+      background-color: #363636;
+      color: whitesmoke;
+      text-align: center;
+      font-family: Roboto Slab;
+      padding: 15px;
+    }
+  
+    /*Styling of POSITIONS*/
+  
+    #center{
+      text-align: left;
+      font-family: Roboto;
+      padding-top: 2%;
+    }
+  
+    #center a {
+      box-shadow: inset 0 0 0 0 #166464;
+      color: #54b3d6;
+      padding: 0 .25rem;
+      margin: 0 -.25rem;
+      transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    }
+    #center a:hover {
+      color: #fff;
+      box-shadow: inset 200px 0 0 0 #166464;;
+    }
+    
+    #center a {
+      color: #166464;
+      font-family: roboto slab;
+      font-size: 27px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+    
+    body {
+      display: grid;
+      height: 100vh;
+      place-items: center;
+    }
+  
+    #center img {
+      padding: 15%;
+    }
+  
+    #positions p {
+      text-align: left;
+    }
+    
+  
+    /*Responsive Padding POSITIONS*/ 
+  
+    @media screen and (max-width: 800px) {
+      #positions {
+        padding-top: 10%;
+      }
+    }
+  
+    @media screen and (min-width: 1007px) {
+      #positions a {
+        font-size: 24px;
+      }
+    }
+  
+    @media screen and (max-width: 800px) {
+      #positions a {
+        font-size: 18px;
+      }
+    }
+  
+    /*styling of Players Section*/
+  
+    .col-md-4 h3{
+      font-family: Roboto;
+      font-weight: 400;
+      text-align: center;
+      padding-top: 5px;
+    }
+  
+    .col-md-4 a {
+      box-shadow: inset 0 0 0 0 #166464;
+      color: #54b3d6;
+      padding: 0 .25rem;
+      margin: 0 -.25rem;
+      transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    }
+    .col-md-4 a:hover {
+      color: #fff;
+      box-shadow: inset 200px 0 0 0 #166464;;
+    }
+    
+    .col-md-4 a {
+      color: #166464;
+      font-family: roboto slab;
+      font-size: 27px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+  
+    .col-md-4 img {
+      padding: 5%;
+    }
+  
+    /*Back to Top Button*/
+  
+    #button h3{
+      text-align: center;
+      border-radius: 25px;
+      background: aqua;
+      padding: 20px;
+      color: #363636;
+      transition: background-color 0.5s ease;
+    }
+  
+    #button a{
+      text-decoration: none;
+    }
+  
+    #button h3:hover{
+      background-color: #166464;
+      color: whitesmoke;
+    }
+  
+    /*Styling of Team Responsive Text*/
+  
+    @media screen and (max-width: 800px) {
+      #events h3 {
+          font-size: 18px;
+      }
+    }
+  
+    /*Styling of Player Responsive Text*/
+  
+    @media screen and (max-width: 800px) {
+      .col-md-4 h3 {
+          font-size: 18px;
+      }
+    }
+  
+    @media screen and (max-width: 800px) {
+      .col-md-4 a {
+          font-size: 22px;
+      }
+    }
+  
+    /*Responsive BOX LINKS*/
+  
+    @media screen and (max-width: 800px) {
+      .col-md-6 h5 {
+        font-size: 32px;
+      }
+    }
+  
+    @media screen and (min-width: 1007px) {
+      .col-md-6 h5 {
+        font-size: 24px;
+      }
+    }
+  
+    @media screen and (max-width: 800px) {
+      .col-md-6 h5 {
+        font-size: 18px;
+      }
+    }
+  
